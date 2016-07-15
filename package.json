@@ -1,0 +1,15 @@
+{
+  "author": "Reevoo",
+  "name": "client_portal-assets",
+  "description": "Basic assets (images, SCSS and fonts) used by Reevoo's client_portal applications",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reevoo/client_portal-assets.git"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/reevoo/client_portal-assets/issues"
+  },
+  "homepage": "https://github.com/reevoo/client_portal-assets#readme"
+}
