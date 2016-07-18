@@ -10,7 +10,24 @@ In order to include this into your application, add the following to your `depen
 
 We highly recommend using [npm-shrinkwrap](https://docs.npmjs.com/cli/shrinkwrap) to ensure your dependencies are up to date.
 
-# Releasing a new version of client_portal-assets
+# Development
+
+## Font generation tools:
+
+We are using [Font Custom](https://github.com/FontCustom/fontcustom) to generate a font family with svg icons, so we can customise their colour.		
+
+```bash
+# On Mac
+brew install fontforge --with-python		
+brew install eot-utils		
+
+# On Linux
+sudo apt-get install fontforge
+wget http://people.mozilla.com/~jkew/woff/woff-code-latest.zip
+unzip woff-code-latest.zip -d sfnt2woff && cd sfnt2woff && make && sudo mv sfnt2woff /usr/local/bin/
+```
+
+## Releasing a new version of client_portal-assets
 
 Ensure the `package.json` is correct and then tag the new version with a semantic version number, prefixed with a "v", so version 1.2.1 (for example) would have tag "v1.2.1" on it.
 

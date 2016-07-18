@@ -1,0 +1,262 @@
+{
+  "checksum": {
+    "previous": "b0d86658fccf4daa802db97c1ea81104b3df77306a79443cfcaf106ac929779b",
+    "current": "b0d86658fccf4daa802db97c1ea81104b3df77306a79443cfcaf106ac929779b"
+  },
+  "fonts": [
+    "dist/fonts/reevooclientportaldings_b0d86658fccf4daa802db97c1ea81104.ttf",
+    "dist/fonts/reevooclientportaldings_b0d86658fccf4daa802db97c1ea81104.svg",
+    "dist/fonts/reevooclientportaldings_b0d86658fccf4daa802db97c1ea81104.woff",
+    "dist/fonts/reevooclientportaldings_b0d86658fccf4daa802db97c1ea81104.eot"
+  ],
+  "glyphs": {
+    "add_bookmark": {
+      "codepoint": 61696,
+      "source": "src/font_svgs/add_bookmark.svg"
+    },
+    "add_to_queue": {
+      "codepoint": 61697,
+      "source": "src/font_svgs/add_to_queue.svg"
+    },
+    "bookmark": {
+      "codepoint": 61698,
+      "source": "src/font_svgs/bookmark.svg"
+    },
+    "chevron_down": {
+      "codepoint": 61699,
+      "source": "src/font_svgs/chevron_down.svg"
+    },
+    "chevron_left": {
+      "codepoint": 61700,
+      "source": "src/font_svgs/chevron_left.svg"
+    },
+    "chevron_right": {
+      "codepoint": 61701,
+      "source": "src/font_svgs/chevron_right.svg"
+    },
+    "chevron_up": {
+      "codepoint": 61702,
+      "source": "src/font_svgs/chevron_up.svg"
+    },
+    "contract_square": {
+      "codepoint": 61703,
+      "source": "src/font_svgs/contract_square.svg"
+    },
+    "contract_up": {
+      "codepoint": 61704,
+      "source": "src/font_svgs/contract_up.svg"
+    },
+    "cross": {
+      "codepoint": 61705,
+      "source": "src/font_svgs/cross.svg"
+    },
+    "customer_profile": {
+      "codepoint": 61706,
+      "source": "src/font_svgs/customer_profile.svg"
+    },
+    "edit_pencil": {
+      "codepoint": 61707,
+      "source": "src/font_svgs/edit_pencil.svg"
+    },
+    "email-reviewer": {
+      "codepoint": 61708,
+      "source": "src/font_svgs/email-reviewer.svg"
+    },
+    "expand_down": {
+      "codepoint": 61709,
+      "source": "src/font_svgs/expand_down.svg"
+    },
+    "expand_square": {
+      "codepoint": 61710,
+      "source": "src/font_svgs/expand_square.svg"
+    },
+    "eye": {
+      "codepoint": 61711,
+      "source": "src/font_svgs/eye.svg"
+    },
+    "faq": {
+      "codepoint": 61712,
+      "source": "src/font_svgs/faq.svg"
+    },
+    "file_download": {
+      "codepoint": 61713,
+      "source": "src/font_svgs/file_download.svg"
+    },
+    "heart": {
+      "codepoint": 61714,
+      "source": "src/font_svgs/heart.svg"
+    },
+    "help": {
+      "codepoint": 61715,
+      "source": "src/font_svgs/help.svg"
+    },
+    "help_information": {
+      "codepoint": 61716,
+      "source": "src/font_svgs/help_information.svg"
+    },
+    "left_arrow": {
+      "codepoint": 61717,
+      "source": "src/font_svgs/left_arrow.svg"
+    },
+    "lock": {
+      "codepoint": 61718,
+      "source": "src/font_svgs/lock.svg"
+    },
+    "mail": {
+      "codepoint": 61719,
+      "source": "src/font_svgs/mail.svg"
+    },
+    "minus": {
+      "codepoint": 61720,
+      "source": "src/font_svgs/minus.svg"
+    },
+    "modules_icon": {
+      "codepoint": 61721,
+      "source": "src/font_svgs/modules_icon.svg"
+    },
+    "negative": {
+      "codepoint": 61722,
+      "source": "src/font_svgs/negative.svg"
+    },
+    "no-change": {
+      "codepoint": 61723,
+      "source": "src/font_svgs/no-change.svg"
+    },
+    "open_full_review": {
+      "codepoint": 61724,
+      "source": "src/font_svgs/open_full_review.svg"
+    },
+    "paper_clip": {
+      "codepoint": 61725,
+      "source": "src/font_svgs/paper_clip.svg"
+    },
+    "plus": {
+      "codepoint": 61726,
+      "source": "src/font_svgs/plus.svg"
+    },
+    "positive": {
+      "codepoint": 61727,
+      "source": "src/font_svgs/positive.svg"
+    },
+    "publish_now": {
+      "codepoint": 61728,
+      "source": "src/font_svgs/publish_now.svg"
+    },
+    "reevoo_logo": {
+      "codepoint": 61729,
+      "source": "src/font_svgs/reevoo_logo.svg"
+    },
+    "refresh": {
+      "codepoint": 61730,
+      "source": "src/font_svgs/refresh.svg"
+    },
+    "remove_from_queue": {
+      "codepoint": 61731,
+      "source": "src/font_svgs/remove_from_queue.svg"
+    },
+    "request_re-moderation": {
+      "codepoint": 61732,
+      "source": "src/font_svgs/request_re-moderation.svg"
+    },
+    "respond": {
+      "codepoint": 61733,
+      "source": "src/font_svgs/respond.svg"
+    },
+    "right_arrow": {
+      "codepoint": 61734,
+      "source": "src/font_svgs/right_arrow.svg"
+    },
+    "sad": {
+      "codepoint": 61735,
+      "source": "src/font_svgs/sad.svg"
+    },
+    "search": {
+      "codepoint": 61736,
+      "source": "src/font_svgs/search.svg"
+    },
+    "send_to_a_collegue": {
+      "codepoint": 61737,
+      "source": "src/font_svgs/send_to_a_collegue.svg"
+    },
+    "send_to_colleague": {
+      "codepoint": 61738,
+      "source": "src/font_svgs/send_to_colleague.svg"
+    },
+    "settings": {
+      "codepoint": 61739,
+      "source": "src/font_svgs/settings.svg"
+    },
+    "sidebar_menu": {
+      "codepoint": 61740,
+      "source": "src/font_svgs/sidebar_menu.svg"
+    },
+    "smile": {
+      "codepoint": 61741,
+      "source": "src/font_svgs/smile.svg"
+    },
+    "star_empty": {
+      "codepoint": 61742,
+      "source": "src/font_svgs/star_empty.svg"
+    },
+    "star_solid": {
+      "codepoint": 61743,
+      "source": "src/font_svgs/star_solid.svg"
+    },
+    "sub_menu": {
+      "codepoint": 61744,
+      "source": "src/font_svgs/sub_menu.svg"
+    },
+    "telephone": {
+      "codepoint": 61745,
+      "source": "src/font_svgs/telephone.svg"
+    },
+    "tick": {
+      "codepoint": 61746,
+      "source": "src/font_svgs/tick.svg"
+    },
+    "trash": {
+      "codepoint": 61747,
+      "source": "src/font_svgs/trash.svg"
+    },
+    "user": {
+      "codepoint": 61748,
+      "source": "src/font_svgs/user.svg"
+    },
+    "warning_sign": {
+      "codepoint": 61749,
+      "source": "src/font_svgs/warning_sign.svg"
+    }
+  },
+  "options": {
+    "autowidth": true,
+    "config": "fontcustom.yml",
+    "css_selector": ".icon-{{glyph}}",
+    "debug": false,
+    "font_ascent": 448,
+    "font_descent": 64,
+    "font_design_size": 16,
+    "font_em": 512,
+    "font_name": "reevooclientportaldings",
+    "force": false,
+    "input": {
+      "templates": "src/font_svgs",
+      "vectors": "src/font_svgs"
+    },
+    "no_hash": false,
+    "output": {
+      "css": "dist/sass/",
+      "fonts": "dist/fonts",
+      "preview": "demo/fontcustom"
+    },
+    "preprocessor_path": null,
+    "quiet": false,
+    "templates": [
+      "scss",
+      "preview"
+    ]
+  },
+  "templates": [
+    "dist/sass/_reevooclientportaldings.scss",
+    "demo/fontcustom/reevooclientportaldings-preview.html"
+  ]
+}

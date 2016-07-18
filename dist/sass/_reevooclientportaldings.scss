@@ -1,0 +1,202 @@
+//
+// Icon Font: reevooclientportaldings
+//
+
+@font-face {
+  font-family: "reevooclientportaldings";
+  src: url("../fonts/reevooclientportaldings_b0d86658fccf4daa802db97c1ea81104.eot");
+  src: url("../fonts/reevooclientportaldings_b0d86658fccf4daa802db97c1ea81104.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/reevooclientportaldings_b0d86658fccf4daa802db97c1ea81104.woff") format("woff"),
+       url("../fonts/reevooclientportaldings_b0d86658fccf4daa802db97c1ea81104.ttf") format("truetype"),
+       url("../fonts/reevooclientportaldings_b0d86658fccf4daa802db97c1ea81104.svg#reevooclientportaldings") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "reevooclientportaldings";
+    src: url("../fonts/reevooclientportaldings_b0d86658fccf4daa802db97c1ea81104.svg#reevooclientportaldings") format("svg");
+  }
+}
+
+[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before,
+.icon-add_bookmark:before,
+.icon-add_to_queue:before,
+.icon-bookmark:before,
+.icon-chevron_down:before,
+.icon-chevron_left:before,
+.icon-chevron_right:before,
+.icon-chevron_up:before,
+.icon-contract_square:before,
+.icon-contract_up:before,
+.icon-cross:before,
+.icon-customer_profile:before,
+.icon-edit_pencil:before,
+.icon-email-reviewer:before,
+.icon-expand_down:before,
+.icon-expand_square:before,
+.icon-eye:before,
+.icon-faq:before,
+.icon-file_download:before,
+.icon-heart:before,
+.icon-help:before,
+.icon-help_information:before,
+.icon-left_arrow:before,
+.icon-lock:before,
+.icon-mail:before,
+.icon-minus:before,
+.icon-modules_icon:before,
+.icon-negative:before,
+.icon-no-change:before,
+.icon-open_full_review:before,
+.icon-paper_clip:before,
+.icon-plus:before,
+.icon-positive:before,
+.icon-publish_now:before,
+.icon-reevoo_logo:before,
+.icon-refresh:before,
+.icon-remove_from_queue:before,
+.icon-request_re-moderation:before,
+.icon-respond:before,
+.icon-right_arrow:before,
+.icon-sad:before,
+.icon-search:before,
+.icon-send_to_a_collegue:before,
+.icon-send_to_colleague:before,
+.icon-settings:before,
+.icon-sidebar_menu:before,
+.icon-smile:before,
+.icon-star_empty:before,
+.icon-star_solid:before,
+.icon-sub_menu:before,
+.icon-telephone:before,
+.icon-tick:before,
+.icon-trash:before,
+.icon-user:before,
+.icon-warning_sign:before {
+  display: inline-block;
+  font-family: "reevooclientportaldings";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.icon-add_bookmark:before { content: "\f100"; }
+.icon-add_to_queue:before { content: "\f101"; }
+.icon-bookmark:before { content: "\f102"; }
+.icon-chevron_down:before { content: "\f103"; }
+.icon-chevron_left:before { content: "\f104"; }
+.icon-chevron_right:before { content: "\f105"; }
+.icon-chevron_up:before { content: "\f106"; }
+.icon-contract_square:before { content: "\f107"; }
+.icon-contract_up:before { content: "\f108"; }
+.icon-cross:before { content: "\f109"; }
+.icon-customer_profile:before { content: "\f10a"; }
+.icon-edit_pencil:before { content: "\f10b"; }
+.icon-email-reviewer:before { content: "\f10c"; }
+.icon-expand_down:before { content: "\f10d"; }
+.icon-expand_square:before { content: "\f10e"; }
+.icon-eye:before { content: "\f10f"; }
+.icon-faq:before { content: "\f110"; }
+.icon-file_download:before { content: "\f111"; }
+.icon-heart:before { content: "\f112"; }
+.icon-help:before { content: "\f113"; }
+.icon-help_information:before { content: "\f114"; }
+.icon-left_arrow:before { content: "\f115"; }
+.icon-lock:before { content: "\f116"; }
+.icon-mail:before { content: "\f117"; }
+.icon-minus:before { content: "\f118"; }
+.icon-modules_icon:before { content: "\f119"; }
+.icon-negative:before { content: "\f11a"; }
+.icon-no-change:before { content: "\f11b"; }
+.icon-open_full_review:before { content: "\f11c"; }
+.icon-paper_clip:before { content: "\f11d"; }
+.icon-plus:before { content: "\f11e"; }
+.icon-positive:before { content: "\f11f"; }
+.icon-publish_now:before { content: "\f120"; }
+.icon-reevoo_logo:before { content: "\f121"; }
+.icon-refresh:before { content: "\f122"; }
+.icon-remove_from_queue:before { content: "\f123"; }
+.icon-request_re-moderation:before { content: "\f124"; }
+.icon-respond:before { content: "\f125"; }
+.icon-right_arrow:before { content: "\f126"; }
+.icon-sad:before { content: "\f127"; }
+.icon-search:before { content: "\f128"; }
+.icon-send_to_a_collegue:before { content: "\f129"; }
+.icon-send_to_colleague:before { content: "\f12a"; }
+.icon-settings:before { content: "\f12b"; }
+.icon-sidebar_menu:before { content: "\f12c"; }
+.icon-smile:before { content: "\f12d"; }
+.icon-star_empty:before { content: "\f12e"; }
+.icon-star_solid:before { content: "\f12f"; }
+.icon-sub_menu:before { content: "\f130"; }
+.icon-telephone:before { content: "\f131"; }
+.icon-tick:before { content: "\f132"; }
+.icon-trash:before { content: "\f133"; }
+.icon-user:before { content: "\f134"; }
+.icon-warning_sign:before { content: "\f135"; }
+
+$font-reevooclientportaldings-add_bookmark: "\f100";
+$font-reevooclientportaldings-add_to_queue: "\f101";
+$font-reevooclientportaldings-bookmark: "\f102";
+$font-reevooclientportaldings-chevron_down: "\f103";
+$font-reevooclientportaldings-chevron_left: "\f104";
+$font-reevooclientportaldings-chevron_right: "\f105";
+$font-reevooclientportaldings-chevron_up: "\f106";
+$font-reevooclientportaldings-contract_square: "\f107";
+$font-reevooclientportaldings-contract_up: "\f108";
+$font-reevooclientportaldings-cross: "\f109";
+$font-reevooclientportaldings-customer_profile: "\f10a";
+$font-reevooclientportaldings-edit_pencil: "\f10b";
+$font-reevooclientportaldings-email-reviewer: "\f10c";
+$font-reevooclientportaldings-expand_down: "\f10d";
+$font-reevooclientportaldings-expand_square: "\f10e";
+$font-reevooclientportaldings-eye: "\f10f";
+$font-reevooclientportaldings-faq: "\f110";
+$font-reevooclientportaldings-file_download: "\f111";
+$font-reevooclientportaldings-heart: "\f112";
+$font-reevooclientportaldings-help: "\f113";
+$font-reevooclientportaldings-help_information: "\f114";
+$font-reevooclientportaldings-left_arrow: "\f115";
+$font-reevooclientportaldings-lock: "\f116";
+$font-reevooclientportaldings-mail: "\f117";
+$font-reevooclientportaldings-minus: "\f118";
+$font-reevooclientportaldings-modules_icon: "\f119";
+$font-reevooclientportaldings-negative: "\f11a";
+$font-reevooclientportaldings-no-change: "\f11b";
+$font-reevooclientportaldings-open_full_review: "\f11c";
+$font-reevooclientportaldings-paper_clip: "\f11d";
+$font-reevooclientportaldings-plus: "\f11e";
+$font-reevooclientportaldings-positive: "\f11f";
+$font-reevooclientportaldings-publish_now: "\f120";
+$font-reevooclientportaldings-reevoo_logo: "\f121";
+$font-reevooclientportaldings-refresh: "\f122";
+$font-reevooclientportaldings-remove_from_queue: "\f123";
+$font-reevooclientportaldings-request_re-moderation: "\f124";
+$font-reevooclientportaldings-respond: "\f125";
+$font-reevooclientportaldings-right_arrow: "\f126";
+$font-reevooclientportaldings-sad: "\f127";
+$font-reevooclientportaldings-search: "\f128";
+$font-reevooclientportaldings-send_to_a_collegue: "\f129";
+$font-reevooclientportaldings-send_to_colleague: "\f12a";
+$font-reevooclientportaldings-settings: "\f12b";
+$font-reevooclientportaldings-sidebar_menu: "\f12c";
+$font-reevooclientportaldings-smile: "\f12d";
+$font-reevooclientportaldings-star_empty: "\f12e";
+$font-reevooclientportaldings-star_solid: "\f12f";
+$font-reevooclientportaldings-sub_menu: "\f130";
+$font-reevooclientportaldings-telephone: "\f131";
+$font-reevooclientportaldings-tick: "\f132";
+$font-reevooclientportaldings-trash: "\f133";
+$font-reevooclientportaldings-user: "\f134";
+$font-reevooclientportaldings-warning_sign: "\f135";
