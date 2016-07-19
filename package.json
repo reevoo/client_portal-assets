@@ -2,7 +2,7 @@
   "author": "Reevoo",
   "name": "client_portal-assets",
   "description": "Basic assets (images, SCSS and fonts) used by Reevoo's client_portal applications",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/reevoo/client_portal-assets.git"
@@ -15,6 +15,8 @@
   "scripts": {
     "fonticon_build": "fontcustom compile",
     "clean": "rm -rf demo dist .fontcustom-manifest.json",
-    "build": "npm run clean && npm run fonticon_build && cp src/sass/colours.scss dist/sass/colours.scss"
+    "copy_styles": "cp -r src/sass dist",
+    "copy_images": "cp -r src/images dist",
+    "build": "npm run clean && npm run fonticon_build && npm run copy_styles && npm run copy_images"
   }
 }
