@@ -4,11 +4,11 @@
 
 @font-face {
   font-family: "reevooclientportaldings";
-  src: url("../fonts/reevooclientportaldings_b0d86658fccf4daa802db97c1ea81104.eot");
-  src: url("../fonts/reevooclientportaldings_b0d86658fccf4daa802db97c1ea81104.eot?#iefix") format("embedded-opentype"),
-       url("../fonts/reevooclientportaldings_b0d86658fccf4daa802db97c1ea81104.woff") format("woff"),
-       url("../fonts/reevooclientportaldings_b0d86658fccf4daa802db97c1ea81104.ttf") format("truetype"),
-       url("../fonts/reevooclientportaldings_b0d86658fccf4daa802db97c1ea81104.svg#reevooclientportaldings") format("svg");
+  src: url("../fonts/reevooclientportaldings_7c8f365c75071f6f70e11a1d48b1528b.eot");
+  src: url("../fonts/reevooclientportaldings_7c8f365c75071f6f70e11a1d48b1528b.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/reevooclientportaldings_7c8f365c75071f6f70e11a1d48b1528b.woff") format("woff"),
+       url("../fonts/reevooclientportaldings_7c8f365c75071f6f70e11a1d48b1528b.ttf") format("truetype"),
+       url("../fonts/reevooclientportaldings_7c8f365c75071f6f70e11a1d48b1528b.svg#reevooclientportaldings") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -16,7 +16,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: "reevooclientportaldings";
-    src: url("../fonts/reevooclientportaldings_b0d86658fccf4daa802db97c1ea81104.svg#reevooclientportaldings") format("svg");
+    src: url("../fonts/reevooclientportaldings_7c8f365c75071f6f70e11a1d48b1528b.svg#reevooclientportaldings") format("svg");
   }
 }
 
@@ -25,7 +25,11 @@
 [data-icon]:before,
 .icon-add_bookmark:before,
 .icon-add_to_queue:before,
+.icon-arrow_down:before,
+.icon-arrow_up:before,
 .icon-bookmark:before,
+.icon-bullet_list:before,
+.icon-bullet_list_add:before,
 .icon-chevron_down:before,
 .icon-chevron_left:before,
 .icon-chevron_right:before,
@@ -38,8 +42,10 @@
 .icon-email-reviewer:before,
 .icon-expand_down:before,
 .icon-expand_square:before,
+.icon-export:before,
 .icon-eye:before,
 .icon-faq:before,
+.icon-favourite:before,
 .icon-file_download:before,
 .icon-heart:before,
 .icon-help:before,
@@ -62,6 +68,7 @@
 .icon-request_re-moderation:before,
 .icon-respond:before,
 .icon-right_arrow:before,
+.icon-rss:before,
 .icon-sad:before,
 .icon-search:before,
 .icon-send_to_a_collegue:before,
@@ -75,6 +82,7 @@
 .icon-telephone:before,
 .icon-tick:before,
 .icon-trash:before,
+.icon-trash_cross:before,
 .icon-user:before,
 .icon-warning_sign:before {
   display: inline-block;
@@ -93,110 +101,126 @@
 
 .icon-add_bookmark:before { content: "\f100"; }
 .icon-add_to_queue:before { content: "\f101"; }
-.icon-bookmark:before { content: "\f102"; }
-.icon-chevron_down:before { content: "\f103"; }
-.icon-chevron_left:before { content: "\f104"; }
-.icon-chevron_right:before { content: "\f105"; }
-.icon-chevron_up:before { content: "\f106"; }
-.icon-contract_square:before { content: "\f107"; }
-.icon-contract_up:before { content: "\f108"; }
-.icon-cross:before { content: "\f109"; }
-.icon-customer_profile:before { content: "\f10a"; }
-.icon-edit_pencil:before { content: "\f10b"; }
-.icon-email-reviewer:before { content: "\f10c"; }
-.icon-expand_down:before { content: "\f10d"; }
-.icon-expand_square:before { content: "\f10e"; }
-.icon-eye:before { content: "\f10f"; }
-.icon-faq:before { content: "\f110"; }
-.icon-file_download:before { content: "\f111"; }
-.icon-heart:before { content: "\f112"; }
-.icon-help:before { content: "\f113"; }
-.icon-help_information:before { content: "\f114"; }
-.icon-left_arrow:before { content: "\f115"; }
-.icon-lock:before { content: "\f116"; }
-.icon-mail:before { content: "\f117"; }
-.icon-minus:before { content: "\f118"; }
-.icon-modules_icon:before { content: "\f119"; }
-.icon-negative:before { content: "\f11a"; }
-.icon-no-change:before { content: "\f11b"; }
-.icon-open_full_review:before { content: "\f11c"; }
-.icon-paper_clip:before { content: "\f11d"; }
-.icon-plus:before { content: "\f11e"; }
-.icon-positive:before { content: "\f11f"; }
-.icon-publish_now:before { content: "\f120"; }
-.icon-reevoo_logo:before { content: "\f121"; }
-.icon-refresh:before { content: "\f122"; }
-.icon-remove_from_queue:before { content: "\f123"; }
-.icon-request_re-moderation:before { content: "\f124"; }
-.icon-respond:before { content: "\f125"; }
-.icon-right_arrow:before { content: "\f126"; }
-.icon-sad:before { content: "\f127"; }
-.icon-search:before { content: "\f128"; }
-.icon-send_to_a_collegue:before { content: "\f129"; }
-.icon-send_to_colleague:before { content: "\f12a"; }
-.icon-settings:before { content: "\f12b"; }
-.icon-sidebar_menu:before { content: "\f12c"; }
-.icon-smile:before { content: "\f12d"; }
-.icon-star_empty:before { content: "\f12e"; }
-.icon-star_solid:before { content: "\f12f"; }
-.icon-sub_menu:before { content: "\f130"; }
-.icon-telephone:before { content: "\f131"; }
-.icon-tick:before { content: "\f132"; }
-.icon-trash:before { content: "\f133"; }
-.icon-user:before { content: "\f134"; }
-.icon-warning_sign:before { content: "\f135"; }
+.icon-arrow_down:before { content: "\f102"; }
+.icon-arrow_up:before { content: "\f103"; }
+.icon-bookmark:before { content: "\f104"; }
+.icon-bullet_list:before { content: "\f105"; }
+.icon-bullet_list_add:before { content: "\f106"; }
+.icon-chevron_down:before { content: "\f107"; }
+.icon-chevron_left:before { content: "\f108"; }
+.icon-chevron_right:before { content: "\f109"; }
+.icon-chevron_up:before { content: "\f10a"; }
+.icon-contract_square:before { content: "\f10b"; }
+.icon-contract_up:before { content: "\f10c"; }
+.icon-cross:before { content: "\f10d"; }
+.icon-customer_profile:before { content: "\f10e"; }
+.icon-edit_pencil:before { content: "\f10f"; }
+.icon-email-reviewer:before { content: "\f110"; }
+.icon-expand_down:before { content: "\f111"; }
+.icon-expand_square:before { content: "\f112"; }
+.icon-export:before { content: "\f113"; }
+.icon-eye:before { content: "\f114"; }
+.icon-faq:before { content: "\f115"; }
+.icon-favourite:before { content: "\f116"; }
+.icon-file_download:before { content: "\f117"; }
+.icon-heart:before { content: "\f118"; }
+.icon-help:before { content: "\f119"; }
+.icon-help_information:before { content: "\f11a"; }
+.icon-left_arrow:before { content: "\f11b"; }
+.icon-lock:before { content: "\f11c"; }
+.icon-mail:before { content: "\f11d"; }
+.icon-minus:before { content: "\f11e"; }
+.icon-modules_icon:before { content: "\f11f"; }
+.icon-negative:before { content: "\f120"; }
+.icon-no-change:before { content: "\f121"; }
+.icon-open_full_review:before { content: "\f122"; }
+.icon-paper_clip:before { content: "\f123"; }
+.icon-plus:before { content: "\f124"; }
+.icon-positive:before { content: "\f125"; }
+.icon-publish_now:before { content: "\f126"; }
+.icon-reevoo_logo:before { content: "\f127"; }
+.icon-refresh:before { content: "\f128"; }
+.icon-remove_from_queue:before { content: "\f129"; }
+.icon-request_re-moderation:before { content: "\f12a"; }
+.icon-respond:before { content: "\f12b"; }
+.icon-right_arrow:before { content: "\f12c"; }
+.icon-rss:before { content: "\f12d"; }
+.icon-sad:before { content: "\f12e"; }
+.icon-search:before { content: "\f12f"; }
+.icon-send_to_a_collegue:before { content: "\f130"; }
+.icon-send_to_colleague:before { content: "\f131"; }
+.icon-settings:before { content: "\f132"; }
+.icon-sidebar_menu:before { content: "\f133"; }
+.icon-smile:before { content: "\f134"; }
+.icon-star_empty:before { content: "\f135"; }
+.icon-star_solid:before { content: "\f136"; }
+.icon-sub_menu:before { content: "\f137"; }
+.icon-telephone:before { content: "\f138"; }
+.icon-tick:before { content: "\f139"; }
+.icon-trash:before { content: "\f13a"; }
+.icon-trash_cross:before { content: "\f13b"; }
+.icon-user:before { content: "\f13c"; }
+.icon-warning_sign:before { content: "\f13d"; }
 
 $font-reevooclientportaldings-add_bookmark: "\f100";
 $font-reevooclientportaldings-add_to_queue: "\f101";
-$font-reevooclientportaldings-bookmark: "\f102";
-$font-reevooclientportaldings-chevron_down: "\f103";
-$font-reevooclientportaldings-chevron_left: "\f104";
-$font-reevooclientportaldings-chevron_right: "\f105";
-$font-reevooclientportaldings-chevron_up: "\f106";
-$font-reevooclientportaldings-contract_square: "\f107";
-$font-reevooclientportaldings-contract_up: "\f108";
-$font-reevooclientportaldings-cross: "\f109";
-$font-reevooclientportaldings-customer_profile: "\f10a";
-$font-reevooclientportaldings-edit_pencil: "\f10b";
-$font-reevooclientportaldings-email-reviewer: "\f10c";
-$font-reevooclientportaldings-expand_down: "\f10d";
-$font-reevooclientportaldings-expand_square: "\f10e";
-$font-reevooclientportaldings-eye: "\f10f";
-$font-reevooclientportaldings-faq: "\f110";
-$font-reevooclientportaldings-file_download: "\f111";
-$font-reevooclientportaldings-heart: "\f112";
-$font-reevooclientportaldings-help: "\f113";
-$font-reevooclientportaldings-help_information: "\f114";
-$font-reevooclientportaldings-left_arrow: "\f115";
-$font-reevooclientportaldings-lock: "\f116";
-$font-reevooclientportaldings-mail: "\f117";
-$font-reevooclientportaldings-minus: "\f118";
-$font-reevooclientportaldings-modules_icon: "\f119";
-$font-reevooclientportaldings-negative: "\f11a";
-$font-reevooclientportaldings-no-change: "\f11b";
-$font-reevooclientportaldings-open_full_review: "\f11c";
-$font-reevooclientportaldings-paper_clip: "\f11d";
-$font-reevooclientportaldings-plus: "\f11e";
-$font-reevooclientportaldings-positive: "\f11f";
-$font-reevooclientportaldings-publish_now: "\f120";
-$font-reevooclientportaldings-reevoo_logo: "\f121";
-$font-reevooclientportaldings-refresh: "\f122";
-$font-reevooclientportaldings-remove_from_queue: "\f123";
-$font-reevooclientportaldings-request_re-moderation: "\f124";
-$font-reevooclientportaldings-respond: "\f125";
-$font-reevooclientportaldings-right_arrow: "\f126";
-$font-reevooclientportaldings-sad: "\f127";
-$font-reevooclientportaldings-search: "\f128";
-$font-reevooclientportaldings-send_to_a_collegue: "\f129";
-$font-reevooclientportaldings-send_to_colleague: "\f12a";
-$font-reevooclientportaldings-settings: "\f12b";
-$font-reevooclientportaldings-sidebar_menu: "\f12c";
-$font-reevooclientportaldings-smile: "\f12d";
-$font-reevooclientportaldings-star_empty: "\f12e";
-$font-reevooclientportaldings-star_solid: "\f12f";
-$font-reevooclientportaldings-sub_menu: "\f130";
-$font-reevooclientportaldings-telephone: "\f131";
-$font-reevooclientportaldings-tick: "\f132";
-$font-reevooclientportaldings-trash: "\f133";
-$font-reevooclientportaldings-user: "\f134";
-$font-reevooclientportaldings-warning_sign: "\f135";
+$font-reevooclientportaldings-arrow_down: "\f102";
+$font-reevooclientportaldings-arrow_up: "\f103";
+$font-reevooclientportaldings-bookmark: "\f104";
+$font-reevooclientportaldings-bullet_list: "\f105";
+$font-reevooclientportaldings-bullet_list_add: "\f106";
+$font-reevooclientportaldings-chevron_down: "\f107";
+$font-reevooclientportaldings-chevron_left: "\f108";
+$font-reevooclientportaldings-chevron_right: "\f109";
+$font-reevooclientportaldings-chevron_up: "\f10a";
+$font-reevooclientportaldings-contract_square: "\f10b";
+$font-reevooclientportaldings-contract_up: "\f10c";
+$font-reevooclientportaldings-cross: "\f10d";
+$font-reevooclientportaldings-customer_profile: "\f10e";
+$font-reevooclientportaldings-edit_pencil: "\f10f";
+$font-reevooclientportaldings-email-reviewer: "\f110";
+$font-reevooclientportaldings-expand_down: "\f111";
+$font-reevooclientportaldings-expand_square: "\f112";
+$font-reevooclientportaldings-export: "\f113";
+$font-reevooclientportaldings-eye: "\f114";
+$font-reevooclientportaldings-faq: "\f115";
+$font-reevooclientportaldings-favourite: "\f116";
+$font-reevooclientportaldings-file_download: "\f117";
+$font-reevooclientportaldings-heart: "\f118";
+$font-reevooclientportaldings-help: "\f119";
+$font-reevooclientportaldings-help_information: "\f11a";
+$font-reevooclientportaldings-left_arrow: "\f11b";
+$font-reevooclientportaldings-lock: "\f11c";
+$font-reevooclientportaldings-mail: "\f11d";
+$font-reevooclientportaldings-minus: "\f11e";
+$font-reevooclientportaldings-modules_icon: "\f11f";
+$font-reevooclientportaldings-negative: "\f120";
+$font-reevooclientportaldings-no-change: "\f121";
+$font-reevooclientportaldings-open_full_review: "\f122";
+$font-reevooclientportaldings-paper_clip: "\f123";
+$font-reevooclientportaldings-plus: "\f124";
+$font-reevooclientportaldings-positive: "\f125";
+$font-reevooclientportaldings-publish_now: "\f126";
+$font-reevooclientportaldings-reevoo_logo: "\f127";
+$font-reevooclientportaldings-refresh: "\f128";
+$font-reevooclientportaldings-remove_from_queue: "\f129";
+$font-reevooclientportaldings-request_re-moderation: "\f12a";
+$font-reevooclientportaldings-respond: "\f12b";
+$font-reevooclientportaldings-right_arrow: "\f12c";
+$font-reevooclientportaldings-rss: "\f12d";
+$font-reevooclientportaldings-sad: "\f12e";
+$font-reevooclientportaldings-search: "\f12f";
+$font-reevooclientportaldings-send_to_a_collegue: "\f130";
+$font-reevooclientportaldings-send_to_colleague: "\f131";
+$font-reevooclientportaldings-settings: "\f132";
+$font-reevooclientportaldings-sidebar_menu: "\f133";
+$font-reevooclientportaldings-smile: "\f134";
+$font-reevooclientportaldings-star_empty: "\f135";
+$font-reevooclientportaldings-star_solid: "\f136";
+$font-reevooclientportaldings-sub_menu: "\f137";
+$font-reevooclientportaldings-telephone: "\f138";
+$font-reevooclientportaldings-tick: "\f139";
+$font-reevooclientportaldings-trash: "\f13a";
+$font-reevooclientportaldings-trash_cross: "\f13b";
+$font-reevooclientportaldings-user: "\f13c";
+$font-reevooclientportaldings-warning_sign: "\f13d";
