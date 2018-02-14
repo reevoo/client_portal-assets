@@ -1,14 +1,14 @@
 {
   "checksum": {
-    "previous": "6a4a884d19cc5af07836ce42d3ddd537fd0044bd6eaa4c91c7df8e1317cadd53",
-    "current": "6a4a884d19cc5af07836ce42d3ddd537fd0044bd6eaa4c91c7df8e1317cadd53"
+    "previous": "6caf06e5efbcbc87e71f5e7a3175e0382003e69b7c7972375fb1de38e2da272d",
+    "current": "6caf06e5efbcbc87e71f5e7a3175e0382003e69b7c7972375fb1de38e2da272d"
   },
   "fonts": [
-    "dist/fonts/reevooclientportaldings_6a4a884d19cc5af07836ce42d3ddd537.ttf",
-    "dist/fonts/reevooclientportaldings_6a4a884d19cc5af07836ce42d3ddd537.svg",
-    "dist/fonts/reevooclientportaldings_6a4a884d19cc5af07836ce42d3ddd537.woff",
-    "dist/fonts/reevooclientportaldings_6a4a884d19cc5af07836ce42d3ddd537.eot",
-    "dist/fonts/reevooclientportaldings_6a4a884d19cc5af07836ce42d3ddd537.woff2"
+    "dist/fonts/reevooclientportaldings_6caf06e5efbcbc87e71f5e7a3175e038.ttf",
+    "dist/fonts/reevooclientportaldings_6caf06e5efbcbc87e71f5e7a3175e038.svg",
+    "dist/fonts/reevooclientportaldings_6caf06e5efbcbc87e71f5e7a3175e038.woff",
+    "dist/fonts/reevooclientportaldings_6caf06e5efbcbc87e71f5e7a3175e038.eot",
+    "dist/fonts/reevooclientportaldings_6caf06e5efbcbc87e71f5e7a3175e038.woff2"
   ],
   "glyphs": {
     "add_bookmark": {
